@@ -1,0 +1,21 @@
+server:
+  port: 9191
+banner:
+  location: classpath:development/banner/banner.txt
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  thymeleaf:
+    cache: false
+  datasource:
+    password: null
+    username: chat
+    url: jdbc:h2:mem:simple-chat;MODE=MYSQL;IGNORECASE=TRUE;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;INIT=CREATE SCHEMA IF NOT EXISTS SIMPLE_CHAT\;SET SCHEMA SIMPLE_CHAT\;
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      path: /console

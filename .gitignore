@@ -1,0 +1,15 @@
+*.classpath
+.project
+*.prefs
+.settings/org.eclipse.wst.common.project.facet.core.xml
+.springBeans
+
+# Maven
+target/
+
+
+# Node, NPM, webpack
+node_modules/
+dist/
+npm-debug.log
+test/unit/coverage
