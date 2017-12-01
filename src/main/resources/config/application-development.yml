@@ -19,3 +19,5 @@ spring:
   h2:
     console:
       path: /console
+logging:
+  file: src/main/resources/log/logfile.txt

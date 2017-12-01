@@ -1,4 +1,0 @@
-server:
-    port: 9191
-logging:
-  file: src/main/resources/log/logfile.txt

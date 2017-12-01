@@ -1,3 +1,9 @@
 C:\Users\rapalisv\git\spring-boot-websocket-demo\src\main\java\com\lito\websocket\demo\controller\MessageController.java
+C:\Users\rapalisv\git\spring-boot-websocket-demo\src\main\java\com\lito\websocket\demo\domain\User.java
+C:\Users\rapalisv\git\spring-boot-websocket-demo\src\main\java\com\lito\websocket\demo\entity\EmbaddedUserHasChatGroupIdKey.java
+C:\Users\rapalisv\git\spring-boot-websocket-demo\src\main\java\com\lito\websocket\demo\entity\MessageEntity.java
+C:\Users\rapalisv\git\spring-boot-websocket-demo\src\main\java\com\lito\websocket\demo\entity\UserEntity.java
+C:\Users\rapalisv\git\spring-boot-websocket-demo\src\main\java\com\lito\websocket\demo\entity\UserHasChatGroupEntity.java
 C:\Users\rapalisv\git\spring-boot-websocket-demo\src\main\java\com\lito\websocket\demo\config\WebsocketConfig.java
 C:\Users\rapalisv\git\spring-boot-websocket-demo\src\main\java\com\lito\websocket\demo\Application.java
+C:\Users\rapalisv\git\spring-boot-websocket-demo\src\main\java\com\lito\websocket\demo\entity\ChatGroupEntity.java

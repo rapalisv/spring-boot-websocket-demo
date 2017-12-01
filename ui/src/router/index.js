@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import {Login, Chatt} from '../components/component-exporter'
+import {Login, ChattDesktop} from '../components/component-exporter'
 
 Vue.use(Router)
 
@@ -14,7 +14,7 @@ export default new Router({
     {
       path: '/chatt',
       name: 'chatt',
-      component: Chatt
+      component: ChattDesktop
     }
   ],
   mode: 'history'

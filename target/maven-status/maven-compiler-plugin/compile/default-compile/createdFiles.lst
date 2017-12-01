@@ -1,3 +1,9 @@
-com\lito\websocket\demo\config\WebsocketConfig.class
 com\lito\websocket\demo\controller\MessageController.class
+com\lito\websocket\demo\entity\UserEntity.class
+com\lito\websocket\demo\entity\EmbaddedUserHasChatGroupIdKey.class
+com\lito\websocket\demo\entity\ChatGroupEntity.class
 com\lito\websocket\demo\Application.class
+com\lito\websocket\demo\entity\UserHasChatGroupEntity.class
+com\lito\websocket\demo\entity\MessageEntity.class
+com\lito\websocket\demo\config\WebsocketConfig.class
+com\lito\websocket\demo\domain\User.class
