@@ -17,7 +17,7 @@ import org.springframework.data.repository.Repository;
  */
 @NoRepositoryBean
 public interface BaseRepository<T, ID extends Serializable> extends Repository<T, ID> {
-  
+
   /**
    * Save entity
    * 
@@ -41,6 +41,22 @@ public interface BaseRepository<T, ID extends Serializable> extends Repository<T
    * @return the entity with the given id or {@literal null} if none found
    */
   Optional<T> findOne(ID id);
+
+
+  /**
+   * Returns all instances of the type with the given IDs.
+   * 
+   * @param ids
+   * @return founded entities as stream
+   */
+  Stream<T> findAll(Iterable<ID> ids);
+  
+  /**
+   * Returns all instances of the type.
+   * 
+   * @return all entities
+   */
+  Stream<T> findAll();
 
   /**
    * Deletes the entity with the given id.

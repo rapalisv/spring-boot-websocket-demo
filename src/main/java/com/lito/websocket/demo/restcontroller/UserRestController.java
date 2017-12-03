@@ -22,19 +22,25 @@ import lombok.AllArgsConstructor;
 @RequestMapping(path = ApiConstants.API_PREFIX + "/users")
 @AllArgsConstructor
 public class UserRestController {
-
-  @SuppressWarnings("unused")
+  /*** Class dependencies ***/
   private UserService userService;
-  
+
   /**
    * Find one ore all users. If the id will be present on the path, then one user will be returned.
    * 
    * @param id user id
    * @return {@link List} of {@link User} or one {@link User} if id will be presented on the path
    */
-  @GetMapping(path = {"{id}"})
+  @SuppressWarnings("unchecked")
+  @GetMapping(path = {"","{id}"})
   public <T> ResponseEntity<T> findUsers(@PathVariable(required = false) Optional<Long> id) {
-    return null;
+    if (id.isPresent()) {
+      return (ResponseEntity<T>) userService.findOne(id.get())
+          .map(ResponseEntity::ok)
+          .orElse(ResponseEntity.notFound()
+              .build());
+    }
+    return (ResponseEntity<T>) ResponseEntity.ok(userService.findAll());
   }
 
 }

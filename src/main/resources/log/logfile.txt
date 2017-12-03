@@ -12010,3 +12010,246 @@ Caused by: org.hibernate.MappingException: Repeated column in mapping for collec
 2017-12-01 16:15:32.107  INFO 15128 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2017-12-01 16:15:32.108  INFO 15128 --- [RMI TCP Connection(10)-127.0.0.1] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
 2017-12-01 16:15:32.119  INFO 15128 --- [RMI TCP Connection(10)-127.0.0.1] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2017-12-03 14:41:24.879  INFO 15868 --- [restartedMain] c.l.w.d.Application                      : Starting Application on MSGN05373 with PID 15868 (C:\Users\rapalisv\git\spring-boot-websocket-demo\target\classes started by rapalisv in C:\Users\rapalisv\git\spring-boot-websocket-demo)
+2017-12-03 14:41:24.883  INFO 15868 --- [restartedMain] c.l.w.d.Application                      : The following profiles are active: development
+2017-12-03 14:41:25.163  INFO 15868 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e8142bf: startup date [Sun Dec 03 14:41:25 CET 2017]; root of context hierarchy
+2017-12-03 14:41:27.960  INFO 15868 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9191 (http)
+2017-12-03 14:41:27.973  INFO 15868 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2017-12-03 14:41:27.974  INFO 15868 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-12-03 14:41:28.064  INFO 15868 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2017-12-03 14:41:28.064  INFO 15868 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2907 ms
+2017-12-03 14:41:28.283  INFO 15868 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-03 14:41:28.284  INFO 15868 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'webServlet' to [/console/*]
+2017-12-03 14:41:28.295  INFO 15868 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-03 14:41:28.296  INFO 15868 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-03 14:41:28.296  INFO 15868 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-03 14:41:28.296  INFO 15868 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-03 14:41:28.860  INFO 15868 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-03 14:41:28.873  INFO 15868 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-03 14:41:29.002  INFO 15868 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-03 14:41:29.003  INFO 15868 --- [restartedMain] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2017-12-03 14:41:29.004  INFO 15868 --- [restartedMain] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2017-12-03 14:41:29.068  INFO 15868 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-03 14:41:29.339  INFO 15868 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-12-03 14:41:29.985  INFO 15868 --- [restartedMain] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2017-12-03 14:41:30.020  INFO 15868 --- [restartedMain] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2017-12-03 14:41:30.067  INFO 15868 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-03 14:41:30.488  INFO 15868 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService  'clientInboundChannelExecutor'
+2017-12-03 14:41:30.501  INFO 15868 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService  'clientOutboundChannelExecutor'
+2017-12-03 14:41:30.524  INFO 15868 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'messageBrokerTaskScheduler'
+2017-12-03 14:41:30.602  INFO 15868 --- [restartedMain] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/ws/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2017-12-03 14:41:30.623  INFO 15868 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService  'brokerChannelExecutor'
+2017-12-03 14:41:30.769  INFO 15868 --- [restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public java.lang.String com.lito.websocket.demo.controller.MessageController.getMessage(java.lang.String)
+2017-12-03 14:41:31.023  INFO 15868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e8142bf: startup date [Sun Dec 03 14:41:25 CET 2017]; root of context hierarchy
+2017-12-03 14:41:31.106  INFO 15868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/users/{id}],methods=[GET]}" onto public <T> org.springframework.http.ResponseEntity<T> com.lito.websocket.demo.restcontroller.UserRestController.findUsers(java.util.Optional<java.lang.Long>)
+2017-12-03 14:41:31.109  INFO 15868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-03 14:41:31.110  INFO 15868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-03 14:41:31.149  INFO 15868 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-03 14:41:31.149  INFO 15868 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-03 14:41:31.201  INFO 15868 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-03 14:41:31.231  INFO 15868 --- [restartedMain] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [static/index.html]
+2017-12-03 14:41:31.540  INFO 15868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-12-03 14:41:31.732  INFO 15868 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-03 14:41:31.748  INFO 15868 --- [restartedMain] o.s.c.s.DefaultLifecycleProcessor        : Starting beans in phase 2147483647
+2017-12-03 14:41:31.749  INFO 15868 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2017-12-03 14:41:31.749  INFO 15868 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2017-12-03 14:41:31.750  INFO 15868 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2017-12-03 14:41:31.835  INFO 15868 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9191 (http)
+2017-12-03 14:41:31.844  INFO 15868 --- [restartedMain] c.l.w.d.Application                      : Started Application in 7.383 seconds (JVM running for 8.825)
+2017-12-03 14:41:54.417  INFO 15868 --- [Thread-8] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1e8142bf: startup date [Sun Dec 03 14:41:25 CET 2017]; root of context hierarchy
+2017-12-03 14:41:54.424  INFO 15868 --- [Thread-8] o.s.c.s.DefaultLifecycleProcessor        : Stopping beans in phase 2147483647
+2017-12-03 14:41:54.433  INFO 15868 --- [Thread-8] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2017-12-03 14:41:54.433  INFO 15868 --- [Thread-8] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2017-12-03 14:41:54.434  INFO 15868 --- [Thread-8] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2017-12-03 14:41:54.437  INFO 15868 --- [Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-12-03 14:41:54.442  INFO 15868 --- [Thread-8] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'brokerChannelExecutor'
+2017-12-03 14:41:54.443  INFO 15868 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2017-12-03 14:41:54.445  INFO 15868 --- [Thread-8] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2017-12-03 14:41:54.447  INFO 15868 --- [Thread-8] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'clientInboundChannelExecutor'
+2017-12-03 14:41:54.447  INFO 15868 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-03 14:41:54.448  INFO 15868 --- [Thread-8] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2017-12-03 14:41:54.484  INFO 15868 --- [Thread-8] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2017-12-03 14:41:54.977  INFO 15868 --- [restartedMain] c.l.w.d.Application                      : Starting Application on MSGN05373 with PID 15868 (C:\Users\rapalisv\git\spring-boot-websocket-demo\target\classes started by rapalisv in C:\Users\rapalisv\git\spring-boot-websocket-demo)
+2017-12-03 14:41:54.977  INFO 15868 --- [restartedMain] c.l.w.d.Application                      : The following profiles are active: development
+2017-12-03 14:41:54.982  INFO 15868 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58ef13cc: startup date [Sun Dec 03 14:41:54 CET 2017]; root of context hierarchy
+2017-12-03 14:41:55.652  INFO 15868 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9191 (http)
+2017-12-03 14:41:55.653  INFO 15868 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2017-12-03 14:41:55.653  INFO 15868 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-12-03 14:41:55.669  INFO 15868 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2017-12-03 14:41:55.669  INFO 15868 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 687 ms
+2017-12-03 14:41:55.720  INFO 15868 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-03 14:41:55.720  INFO 15868 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'webServlet' to [/console/*]
+2017-12-03 14:41:55.720  INFO 15868 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-03 14:41:55.721  INFO 15868 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-03 14:41:55.721  INFO 15868 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-03 14:41:55.721  INFO 15868 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-03 14:41:55.847  INFO 15868 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-03 14:41:55.847  INFO 15868 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-03 14:41:55.861  INFO 15868 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-12-03 14:41:55.916  INFO 15868 --- [restartedMain] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2017-12-03 14:41:55.923  INFO 15868 --- [restartedMain] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2017-12-03 14:41:55.928  INFO 15868 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-03 14:41:56.051  INFO 15868 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService  'clientInboundChannelExecutor'
+2017-12-03 14:41:56.052  INFO 15868 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService  'clientOutboundChannelExecutor'
+2017-12-03 14:41:56.054  INFO 15868 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'messageBrokerTaskScheduler'
+2017-12-03 14:41:56.059  INFO 15868 --- [restartedMain] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/ws/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2017-12-03 14:41:56.064  INFO 15868 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService  'brokerChannelExecutor'
+2017-12-03 14:41:56.098  INFO 15868 --- [restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public java.lang.String com.lito.websocket.demo.controller.MessageController.getMessage(java.lang.String)
+2017-12-03 14:41:56.151  INFO 15868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58ef13cc: startup date [Sun Dec 03 14:41:54 CET 2017]; root of context hierarchy
+2017-12-03 14:41:56.165  INFO 15868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/users/{id}],methods=[GET]}" onto public <T> org.springframework.http.ResponseEntity<T> com.lito.websocket.demo.restcontroller.UserRestController.findUsers(java.util.Optional<java.lang.Long>)
+2017-12-03 14:41:56.168  INFO 15868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-03 14:41:56.168  INFO 15868 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-03 14:41:56.184  INFO 15868 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-03 14:41:56.184  INFO 15868 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-03 14:41:56.203  INFO 15868 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-03 14:41:56.212  INFO 15868 --- [restartedMain] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [static/index.html]
+2017-12-03 14:41:56.272  INFO 15868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-12-03 14:41:56.449  INFO 15868 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-03 14:41:56.453  INFO 15868 --- [restartedMain] o.s.c.s.DefaultLifecycleProcessor        : Starting beans in phase 2147483647
+2017-12-03 14:41:56.454  INFO 15868 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2017-12-03 14:41:56.454  INFO 15868 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2017-12-03 14:41:56.454  INFO 15868 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2017-12-03 14:41:56.471  INFO 15868 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9191 (http)
+2017-12-03 14:41:56.475  INFO 15868 --- [restartedMain] c.l.w.d.Application                      : Started Application in 1.573 seconds (JVM running for 33.456)
+2017-12-03 14:41:59.647  INFO 15868 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-12-03 14:41:59.648  INFO 15868 --- [RMI TCP Connection(11)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58ef13cc: startup date [Sun Dec 03 14:41:54 CET 2017]; root of context hierarchy
+2017-12-03 14:41:59.649  INFO 15868 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-12-03 14:41:59.649  INFO 15868 --- [RMI TCP Connection(11)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor        : Stopping beans in phase 2147483647
+2017-12-03 14:41:59.649  INFO 15868 --- [RMI TCP Connection(11)-127.0.0.1] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2017-12-03 14:41:59.649  INFO 15868 --- [RMI TCP Connection(11)-127.0.0.1] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2017-12-03 14:41:59.650  INFO 15868 --- [RMI TCP Connection(11)-127.0.0.1] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2017-12-03 14:41:59.650  INFO 15868 --- [RMI TCP Connection(11)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-12-03 14:41:59.651  INFO 15868 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'brokerChannelExecutor'
+2017-12-03 14:41:59.651  INFO 15868 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2017-12-03 14:41:59.652  INFO 15868 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2017-12-03 14:41:59.652  INFO 15868 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'clientInboundChannelExecutor'
+2017-12-03 14:41:59.652  INFO 15868 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-03 14:41:59.653  INFO 15868 --- [RMI TCP Connection(11)-127.0.0.1] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2017-12-03 14:41:59.660  INFO 15868 --- [RMI TCP Connection(11)-127.0.0.1] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2017-12-03 16:22:10.126  INFO 16344 --- [restartedMain] c.l.w.d.Application                      : Starting Application on MSGN05373 with PID 16344 (C:\Users\rapalisv\git\spring-boot-websocket-demo\target\classes started by rapalisv in C:\Users\rapalisv\git\spring-boot-websocket-demo)
+2017-12-03 16:22:10.126  INFO 16344 --- [restartedMain] c.l.w.d.Application                      : The following profiles are active: development
+2017-12-03 16:22:10.188  INFO 16344 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22261054: startup date [Sun Dec 03 16:22:10 CET 2017]; root of context hierarchy
+2017-12-03 16:22:11.438  INFO 16344 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9191 (http)
+2017-12-03 16:22:11.453  INFO 16344 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2017-12-03 16:22:11.453  INFO 16344 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-12-03 16:22:11.524  INFO 16344 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2017-12-03 16:22:11.524  INFO 16344 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1351 ms
+2017-12-03 16:22:11.665  INFO 16344 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-03 16:22:11.665  INFO 16344 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'webServlet' to [/console/*]
+2017-12-03 16:22:11.665  INFO 16344 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-03 16:22:11.665  INFO 16344 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-03 16:22:11.665  INFO 16344 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-03 16:22:11.665  INFO 16344 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-03 16:22:11.984  INFO 16344 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-03 16:22:11.999  INFO 16344 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-03 16:22:12.045  INFO 16344 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate Core {5.0.12.Final}
+2017-12-03 16:22:12.045  INFO 16344 --- [restartedMain] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2017-12-03 16:22:12.045  INFO 16344 --- [restartedMain] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2017-12-03 16:22:12.076  INFO 16344 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-12-03 16:22:12.170  INFO 16344 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-12-03 16:22:12.639  INFO 16344 --- [restartedMain] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2017-12-03 16:22:12.658  INFO 16344 --- [restartedMain] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2017-12-03 16:22:12.690  INFO 16344 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-03 16:22:12.971  INFO 16344 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService  'clientInboundChannelExecutor'
+2017-12-03 16:22:12.987  INFO 16344 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService  'clientOutboundChannelExecutor'
+2017-12-03 16:22:12.987  INFO 16344 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'messageBrokerTaskScheduler'
+2017-12-03 16:22:13.018  INFO 16344 --- [restartedMain] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/ws/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2017-12-03 16:22:13.033  INFO 16344 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService  'brokerChannelExecutor'
+2017-12-03 16:22:13.127  INFO 16344 --- [restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public java.lang.String com.lito.websocket.demo.controller.MessageController.getMessage(java.lang.String)
+2017-12-03 16:22:13.257  INFO 16344 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22261054: startup date [Sun Dec 03 16:22:10 CET 2017]; root of context hierarchy
+2017-12-03 16:22:13.319  INFO 16344 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/users/{id}],methods=[GET]}" onto public <T> org.springframework.http.ResponseEntity<T> com.lito.websocket.demo.restcontroller.UserRestController.findUsers(java.util.Optional<java.lang.Long>)
+2017-12-03 16:22:13.320  INFO 16344 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-03 16:22:13.320  INFO 16344 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-03 16:22:13.336  INFO 16344 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-03 16:22:13.336  INFO 16344 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-03 16:22:13.367  INFO 16344 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-03 16:22:13.383  INFO 16344 --- [restartedMain] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [static/index.html]
+2017-12-03 16:22:13.555  INFO 16344 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-12-03 16:22:13.602  INFO 16344 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-03 16:22:13.602  INFO 16344 --- [restartedMain] o.s.c.s.DefaultLifecycleProcessor        : Starting beans in phase 2147483647
+2017-12-03 16:22:13.602  INFO 16344 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2017-12-03 16:22:13.602  INFO 16344 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2017-12-03 16:22:13.602  INFO 16344 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2017-12-03 16:22:13.648  INFO 16344 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9191 (http)
+2017-12-03 16:22:13.658  INFO 16344 --- [restartedMain] c.l.w.d.Application                      : Started Application in 3.781 seconds (JVM running for 4.557)
+2017-12-03 16:22:57.126  INFO 16344 --- [Thread-8] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@22261054: startup date [Sun Dec 03 16:22:10 CET 2017]; root of context hierarchy
+2017-12-03 16:22:57.143  INFO 16344 --- [Thread-8] o.s.c.s.DefaultLifecycleProcessor        : Stopping beans in phase 2147483647
+2017-12-03 16:22:57.143  INFO 16344 --- [Thread-8] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2017-12-03 16:22:57.143  INFO 16344 --- [Thread-8] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2017-12-03 16:22:57.143  INFO 16344 --- [Thread-8] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2017-12-03 16:22:57.143  INFO 16344 --- [Thread-8] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-12-03 16:22:57.143  INFO 16344 --- [Thread-8] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'brokerChannelExecutor'
+2017-12-03 16:22:57.143  INFO 16344 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2017-12-03 16:22:57.143  INFO 16344 --- [Thread-8] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2017-12-03 16:22:57.143  INFO 16344 --- [Thread-8] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'clientInboundChannelExecutor'
+2017-12-03 16:22:57.143  INFO 16344 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-03 16:22:57.143  INFO 16344 --- [Thread-8] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2017-12-03 16:22:57.174  INFO 16344 --- [Thread-8] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2017-12-03 16:22:57.612  INFO 16344 --- [restartedMain] c.l.w.d.Application                      : Starting Application on MSGN05373 with PID 16344 (C:\Users\rapalisv\git\spring-boot-websocket-demo\target\classes started by rapalisv in C:\Users\rapalisv\git\spring-boot-websocket-demo)
+2017-12-03 16:22:57.612  INFO 16344 --- [restartedMain] c.l.w.d.Application                      : The following profiles are active: development
+2017-12-03 16:22:57.612  INFO 16344 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@369eb0d: startup date [Sun Dec 03 16:22:57 CET 2017]; root of context hierarchy
+2017-12-03 16:22:58.080  INFO 16344 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9191 (http)
+2017-12-03 16:22:58.080  INFO 16344 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2017-12-03 16:22:58.080  INFO 16344 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-12-03 16:22:58.096  INFO 16344 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2017-12-03 16:22:58.096  INFO 16344 --- [localhost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 484 ms
+2017-12-03 16:22:58.143  INFO 16344 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-03 16:22:58.154  INFO 16344 --- [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean        : Mapping servlet: 'webServlet' to [/console/*]
+2017-12-03 16:22:58.155  INFO 16344 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-03 16:22:58.155  INFO 16344 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-03 16:22:58.155  INFO 16344 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-03 16:22:58.155  INFO 16344 --- [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean         : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-03 16:22:58.250  INFO 16344 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-12-03 16:22:58.250  INFO 16344 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-12-03 16:22:58.265  INFO 16344 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-12-03 16:22:58.312  INFO 16344 --- [restartedMain] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2017-12-03 16:22:58.328  INFO 16344 --- [restartedMain] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2017-12-03 16:22:58.328  INFO 16344 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-12-03 16:22:58.406  INFO 16344 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService  'clientInboundChannelExecutor'
+2017-12-03 16:22:58.422  INFO 16344 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService  'clientOutboundChannelExecutor'
+2017-12-03 16:22:58.422  INFO 16344 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'messageBrokerTaskScheduler'
+2017-12-03 16:22:58.422  INFO 16344 --- [restartedMain] o.s.w.s.s.s.WebSocketHandlerMapping      : Mapped URL path [/ws/**] onto handler of type [class org.springframework.web.socket.sockjs.support.SockJsHttpRequestHandler]
+2017-12-03 16:22:58.422  INFO 16344 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService  'brokerChannelExecutor'
+2017-12-03 16:22:58.437  INFO 16344 --- [restartedMain] .WebSocketAnnotationMethodMessageHandler : Mapped "{[/message],messageType=[MESSAGE]}" onto public java.lang.String com.lito.websocket.demo.controller.MessageController.getMessage(java.lang.String)
+2017-12-03 16:22:58.468  INFO 16344 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@369eb0d: startup date [Sun Dec 03 16:22:57 CET 2017]; root of context hierarchy
+2017-12-03 16:22:58.484  INFO 16344 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/users || /api/users/{id}],methods=[GET]}" onto public <T> org.springframework.http.ResponseEntity<T> com.lito.websocket.demo.restcontroller.UserRestController.findUsers(java.util.Optional<java.lang.Long>)
+2017-12-03 16:22:58.484  INFO 16344 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-03 16:22:58.484  INFO 16344 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-03 16:22:58.484  INFO 16344 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-03 16:22:58.484  INFO 16344 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-03 16:22:58.500  INFO 16344 --- [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-03 16:22:58.515  INFO 16344 --- [restartedMain] oConfiguration$WelcomePageHandlerMapping : Adding welcome page: class path resource [static/index.html]
+2017-12-03 16:22:58.547  INFO 16344 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-12-03 16:22:58.578  INFO 16344 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-03 16:22:58.593  INFO 16344 --- [restartedMain] o.s.c.s.DefaultLifecycleProcessor        : Starting beans in phase 2147483647
+2017-12-03 16:22:58.593  INFO 16344 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2017-12-03 16:22:58.593  INFO 16344 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2017-12-03 16:22:58.593  INFO 16344 --- [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2017-12-03 16:22:58.593  INFO 16344 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9191 (http)
+2017-12-03 16:22:58.609  INFO 16344 --- [restartedMain] c.l.w.d.Application                      : Started Application in 1.06 seconds (JVM running for 49.505)
+2017-12-03 16:23:21.036  INFO 16344 --- [http-nio-9191-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-03 16:23:21.036  INFO 16344 --- [http-nio-9191-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-03 16:23:21.056  INFO 16344 --- [http-nio-9191-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2017-12-03 16:23:21.113  INFO 16344 --- [http-nio-9191-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2017-12-03 16:23:38.971  INFO 16344 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-12-03 16:23:38.981  INFO 16344 --- [RMI TCP Connection(14)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@369eb0d: startup date [Sun Dec 03 16:22:57 CET 2017]; root of context hierarchy
+2017-12-03 16:23:38.982  INFO 16344 --- [RMI TCP Connection(14)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor        : Stopping beans in phase 2147483647
+2017-12-03 16:23:38.982  INFO 16344 --- [RMI TCP Connection(14)-127.0.0.1] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2017-12-03 16:23:38.982  INFO 16344 --- [RMI TCP Connection(14)-127.0.0.1] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2017-12-03 16:23:38.982  INFO 16344 --- [RMI TCP Connection(14)-127.0.0.1] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2017-12-03 16:23:38.982  INFO 16344 --- [RMI TCP Connection(14)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-12-03 16:23:38.982  INFO 16344 --- [RMI TCP Connection(14)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'brokerChannelExecutor'
+2017-12-03 16:23:38.982  INFO 16344 --- [RMI TCP Connection(14)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2017-12-03 16:23:38.982  INFO 16344 --- [RMI TCP Connection(14)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2017-12-03 16:23:38.982  INFO 16344 --- [RMI TCP Connection(14)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'clientInboundChannelExecutor'
+2017-12-03 16:23:38.982  INFO 16344 --- [RMI TCP Connection(14)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-12-03 16:23:38.982  INFO 16344 --- [RMI TCP Connection(14)-127.0.0.1] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2017-12-03 16:23:38.982  INFO 16344 --- [RMI TCP Connection(14)-127.0.0.1] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
